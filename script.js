@@ -33,6 +33,7 @@ colorInputs.forEach(input => {
     input.addEventListener("input", () => generateGradient(false));
 });
 
+
 selectMenu.addEventListener("change", generateGradient);
 refreshBtn.addEventListener("click", () => generateGradient(true));
 copyBtn.addEventListener("click", copyCode);
